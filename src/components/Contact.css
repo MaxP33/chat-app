@@ -35,6 +35,7 @@
     width: 8px;
     height: 8px;
     margin-right: 6px;
+    align-self: center;
   }
   
   .Contact .status .status-online {
@@ -43,4 +44,8 @@
   
   .Contact .status .status-offline {
     background: #f4511e;
+  }
+
+  .status {
+      display: flex;
   }
